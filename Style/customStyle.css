@@ -1,0 +1,33 @@
+header h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    background: url(../Images/pexels-adi-perets-4125993.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/***** CSS Utilities *****/
+.text-salmon {
+    color: salmon;
+}
+
+.btn-salmon{
+    background: salmon;
+    transition: all 0.5s;
+    /* color: #fff; */
+}
+/***** End CSS Utilities *****/
+
+
+.gradient {
+    /* height: 400px; */
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    margin: 20px;
+}
